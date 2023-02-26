@@ -19,7 +19,7 @@ mkdir('ticket')
 def redirect(n):
     return f"""<!DOCTYPE html>
 <html>
-  <body>
+  <body style="margin: 30px">
     <p>This ticket is now <a href="https://github.com/sagemath/sage/issues/{n}">hosted on GitHub</a>.</p>
 
 <p>
